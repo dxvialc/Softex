@@ -1,0 +1,230 @@
+
+body{
+    background: rgb(223, 255, 224);
+    margin: 0px;
+    font-family: Karla, Arial;
+}
+#conteudo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1 {
+    color: black;
+    font-family: Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: black;
+}
+p {
+    font-size: 15pt;
+}
+img {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;   
+}
+#menu {
+    background: rgba(8, 202, 50, 0.699);
+    height: 100px;
+    padding-top: 10px;
+}
+#listamenu {
+    margin-left: 50px;
+}
+#menu ul {
+    text-align: center;
+    text-transform: uppercase; 
+    list-style: none;
+}
+#menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px    ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    
+}
+#menu ul li a {
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    color: black;
+    transition: 2s;
+}
+#menu img {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 125px;
+    height: 50px;      
+}
+#menu a {
+    color: azure;
+}
+#conteudo nav {
+    padding: 0px;
+}
+#produtos {
+    background: rgba(8, 202, 50, 0.699);
+    margin-top: 30px;
+    padding-bottom: 30px;
+    height: 270px;
+    box-shadow: 5px 5px 10px grey;
+}
+#produtos img{
+    float: left;
+    margin-right: 20px;
+    margin-top: -60px;
+    
+}
+#produtos ul {
+    margin-left: 500px;
+    margin-top: -15px;
+}
+#produtos li {
+    font-size: 15pt;
+}
+#produtos h2 {
+        margin-left: 765px;
+        padding-top: 10px;   
+}
+#produtos p {
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 10px;
+}
+#clientes {
+    background: rgba(8, 202, 50, 0.699);
+    margin-top: 80px;
+    padding-bottom: 30px;
+    height: 270px;
+    box-shadow: -5px 5px 10px grey;
+}
+#clientes img{
+    float: right;
+    margin-top: -297px;  
+}
+#clientes p {
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#clientes h2 {
+    margin-left: 275px;
+    padding-top: 10px;
+}
+#clientes li {
+    font-size: 15pt;
+}
+#clientes ol {
+    margin-top: -15px;
+    list-style: upper-roman;
+}
+#colaboradores {
+    background: rgba(8, 202, 50, 0.699);
+    margin-top: 80px;
+    padding-bottom: 30px;
+    height: 270px;
+    box-shadow: -5px 5px 10px grey;
+}
+#colaboradores img{
+    float: left;
+    margin-top: -248px;
+    
+}
+#colaboradores h2 {
+        margin-left: 745px;
+        padding-top: 10px;   
+    }
+#colaboradores p {
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 530px;
+}
+#parceiros {
+    background: rgba(8, 202, 50, 0.699);
+    margin-top: 80px;
+    padding-bottom: 30px;
+    height: 270px;
+    box-shadow: 5px 5px 10px grey;
+}
+#parceiros img{
+    float: right;
+    margin-top: -142px; 
+}
+#parceiros h2 {
+        margin-left: 265px;
+        padding-top: 10px;   
+    }
+#parceiros p {
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+#parceiros a {
+    text-decoration: none;
+    color: white;
+}
+#parceiros a:hover {
+    color: black;
+    transition: 2s;
+}
+#faleconosco {
+    background: #70FFB2;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 270px;
+    box-shadow: 5px 5px 10px grey;
+}
+#faleconosco img{
+    float: left;
+    margin-top: -310px;
+    
+}
+#faleconosco h2 {
+        text-shadow: 1px 1px 1px grey;
+        margin-left: 520px;
+        padding-top: 10px;   
+    }
+#faleconosco p {
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 10px;
+}
+#faleconosco a img{
+    margin-top: 20px;
+    margin-left: 570px;
+}
+#localizacao iframe {
+    width: 1150px;
+    height: 100px;
+    box-shadow: 3px 3px 10px grey;
+}
+#localizacao h2 {
+    color: black;
+    margin-right: 450px;
+    margin-left: 500px;
+}
+footer {
+    background: rgba(8, 202, 50, 0.699);
+    padding: 7px;
+    margin-top: 80px;
+    margin-left: -100px;
+    margin-right: 0px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Arial;
+}
